@@ -1,14 +1,22 @@
 ## 🚀 Star Defenders
 
+![Star_Defenders](https://github.com/santakd/star-defenders/blob/main/star_defenders.gif)
+
 Star Defenders is a classic, arcade-style space shooter built entirely in Python using pygame.
 
-More than just a game, Star Defenders is engineered with production-grade architecture. It features zero external asset dependencies, relying completely on real-time procedural generation for its graphics, particle physics, and audio.
+More than just a game, Star Defenders is engineered with production-grade architecture. 
+
+It features zero external asset dependencies, relying completely on real-time procedural generation for its graphics, particle physics, and audio.
 
 ### ✨ Features
 
-    Zero-Dependency Assets: No need to download .png or .wav files. Every visual and sound is generated via math and memory buffers at runtime.
+    Zero-Dependency Assets: No need to download .png or .wav files. 
+    
+    Every visual and sound is generated via math and memory buffers at runtime.
 
-    Procedural Retro Audio: Explosion sounds are created using in-memory Pulse Code Modulation (PCM) wave generation with rapid quadratic decay envelopes to perfectly simulate retro 8-bit noise channels.
+    Procedural Retro Audio: Explosion sounds are created using in-memory Pulse Code Modulation (PCM) wave generation 
+    
+    With rapid quadratic decay envelopes to perfectly simulate retro 8-bit noise channels.
 
     Dynamic Particle Effects: Destroying alien ships triggers a mathematical 360-degree radial particle burst that smoothly transitions colors as it dissipates.
 
@@ -16,7 +24,9 @@ More than just a game, Star Defenders is engineered with production-grade archit
 
     Enterprise-Grade Logging: Every game session generates a timestamped .log file detailing boot sequences, gameplay events, and graceful shutdowns.
 
-    Resilient Error Handling: Global exception catching ensures that if a fatal error occurs, the stack trace is written to the log and the game shuts down safely without freezing the OS window.
+    Resilient Error Handling: Global exception catching ensures that if a fatal error occurs, the stack trace is written to the log
+    
+    The game shuts down safely without freezing the OS window.
 
 ### 🛠️ Getting Started
 
@@ -51,5 +61,10 @@ For developers interested in the architecture of Star Defenders:
 If you experience any issues or want to review your gameplay data, check the logs/ directory.
 
     A new log file (e.g., star_defenders_20260504_114500.log) is automatically generated every time you launch the application.
+
+
+### ⭐ Like it? Star it!
+
+If you find this project interesting, please give it a star — it helps others discover it too.
 
 Created with Python & Pygame. Happy Coding and Happy Defending!

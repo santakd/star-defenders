@@ -20,9 +20,10 @@ More than just a game, Star Defenders is engineered with production-grade archit
 
 ### 🛠️ Getting Started
 
-Prerequisites: You will need Python 3.x installed on your machine, along with the pygame library.
+    Prerequisites: You will need Python 3.x installed on your machine, along with the pygame library.
 
-Running the Game: Simply run the Python script from your terminal or command prompt:
+    Running the Game: Simply run the Python script from your terminal or command prompt:
+    
     python3 star_defenders.py
 
 ### 🎮 Controls
@@ -47,6 +48,8 @@ For developers interested in the architecture of Star Defenders:
 
 ### 📝 Logs & Debugging
 
-If you experience any issues or want to review your gameplay data, check the logs/ directory. A new log file (e.g., star_defenders_20260504_114500.log) is automatically generated every time you launch the application.
+If you experience any issues or want to review your gameplay data, check the logs/ directory.
+
+    A new log file (e.g., star_defenders_20260504_114500.log) is automatically generated every time you launch the application.
 
 Created with Python & Pygame. Happy Coding and Happy Defending!

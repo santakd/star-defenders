@@ -22,15 +22,15 @@
 # RUN
 #   python3 star_defenders.py
 #
-# Controls:
+# CONTROLS:
 #    Left Arrow: Move left.
 #    Right Arrow: Move right.
 #    Spacebar: Fire bullet.
+#
 #    Note: You cannot hold the spacebar to shoot a solid beam; there is a built-in cooldown logic dictating the fire rate.
 #    The weapon to a "Twin-Linked" or dual-blaster setup.
 #    Each time you press the spacebar, it fires two bullets simultaneously, one from the left side of the ship and one from the right.
 #    This design choice adds a layer of strategy and visual flair, as players can cover more area and feel more powerful with each shot, while still maintaining a balanced fire rate to keep the game challenging and engaging.
-
 
 import pygame
 import sys

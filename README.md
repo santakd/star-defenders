@@ -4,9 +4,10 @@
 
 Star Defenders is a classic, arcade-style space shooter built entirely in Python using pygame.
 
-More than just a game, Star Defenders is engineered with production-grade architecture. 
+More than just a game, Star Defenders is engineered with production-grade architecture and design. 
 
 It features zero external asset dependencies, relying completely on real-time procedural generation for its graphics, particle physics, and audio.
+
 
 ### ✨ Features
 
@@ -28,6 +29,7 @@ It features zero external asset dependencies, relying completely on real-time pr
     
     The game shuts down safely without freezing the OS window.
 
+
 ### 🛠️ Getting Started
 
     Prerequisites: You will need Python 3.x installed on your machine, along with the pygame library.
@@ -35,6 +37,7 @@ It features zero external asset dependencies, relying completely on real-time pr
     Running the Game: Simply run the Python script from your terminal or command prompt:
     
     python3 star_defenders.py
+
 
 ### 🎮 Controls
 
@@ -44,7 +47,8 @@ It features zero external asset dependencies, relying completely on real-time pr
 
     Spacebar (␣): Fire dual-blasters.
 
-Defend the galaxy, prevent the alien fleet from touching the bottom of the screen, and achieve the highest score!
+*Defend the galaxy, prevent the alien fleet from touching the bottom of the screen, and achieve the highest score!*
+
 
 ### 🔬 Under the Hood
 
@@ -55,6 +59,7 @@ For developers interested in the architecture of Star Defenders:
     Resilient Sprite Updates: Pygame group .update() loops are handled with *args, **kwargs safety, allowing diverse entities to share the same update loop without crashing due to mismatched arguments.
 
     Future-Proof Combat: The shoot() method returns a list of bullet entities rather than a single object, allowing for incredibly easy implementation of future power-ups (e.g., spread-shot, laser beams) without altering the core game loop.
+
 
 ### 📝 Logs & Debugging
 
@@ -67,4 +72,6 @@ If you experience any issues or want to review your gameplay data, check the log
 
 If you find this project interesting, please give it a star — it helps others discover it too.
 
-Created with Python & Pygame. Happy Coding and Happy Defending!
+
+*Created with Python & Pygame. Happy Coding and Happy Defending!*
+

@@ -36,9 +36,9 @@ It features zero external asset dependencies, relying completely on real-time pr
 
     Running the Game: Simply run the Python script from your terminal or command prompt:
     
-    python3 star_defenders.py for the version without game stats
+    python3 [star_defenders.py](https://github.com/santakd/star-defenders/blob/main/star_defenders.py) for the version without game stats
 
-    python3 star_defenders2.py for the version with game stats
+    python3 [star_defenders2.py](https://github.com/santakd/star-defenders/blob/main/star_defenders2.py) for the version with game stats
 
 
 ### 🎮 Controls

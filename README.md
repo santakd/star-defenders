@@ -10,7 +10,7 @@ It features zero external asset dependencies, relying completely on real-time pr
 
 ### 📃 Source File
 
-[star_defenders.py](https://github.com/santakd/star-defenders/blob/main/star_defenders.py) for the version without game stats
+[star_defenders.py](https://github.com/santakd/star-defenders/blob/main/star_defenders.py) - The only file required to play the game.
 
     
 ### ✨ Features

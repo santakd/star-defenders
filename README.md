@@ -8,7 +8,12 @@ More than just a game, Star Defenders is engineered with production-grade archit
 
 It features zero external asset dependencies, relying completely on real-time procedural generation for its graphics, particle physics, and audio.
 
+### Files
 
+[star_defenders.py](https://github.com/santakd/star-defenders/blob/main/star_defenders.py) for the version without game stats
+
+[star_defenders2.py](https://github.com/santakd/star-defenders/blob/main/star_defenders2.py) for the version with game stats
+    
 ### ✨ Features
 
     Zero-Dependency Assets: No need to download .png or .wav files. 
@@ -35,10 +40,12 @@ It features zero external asset dependencies, relying completely on real-time pr
     Prerequisites: You will need Python 3.x installed on your machine, along with the pygame library.
 
     Running the Game: Simply run the Python script from your terminal or command prompt:
-    
-    python3 [star_defenders.py](https://github.com/santakd/star-defenders/blob/main/star_defenders.py) for the version without game stats
 
-    python3 [star_defenders2.py](https://github.com/santakd/star-defenders/blob/main/star_defenders2.py) for the version with game stats
+    For the version without game stats
+    python3 star_defenders.py
+
+    For the version with game stats
+    python3 star_defenders2.py 
 
 
 ### 🎮 Controls

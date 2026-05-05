@@ -8,11 +8,10 @@ More than just a game, Star Defenders is engineered with production-grade archit
 
 It features zero external asset dependencies, relying completely on real-time procedural generation for its graphics, particle physics, and audio.
 
-### Files
+### 📃 Source File
 
 [star_defenders.py](https://github.com/santakd/star-defenders/blob/main/star_defenders.py) for the version without game stats
 
-[star_defenders2.py](https://github.com/santakd/star-defenders/blob/main/star_defenders2.py) for the version with game stats
     
 ### ✨ Features
 
@@ -26,13 +25,15 @@ It features zero external asset dependencies, relying completely on real-time pr
 
     Dynamic Particle Effects: Destroying alien ships triggers a mathematical 360-degree radial particle burst that smoothly transitions colors as it dissipates.
 
-    Twin-Linked Weaponry: Configurable dual-blasters with built-in cooldown management.
+    Twin-Linked Weaponry: Configurable dual-blasters with built-in cooldown management on the space ship
+
+    Need to Dodge: Need to dodge enemy fire by moving the space ship
 
     Enterprise-Grade Logging: Every game session generates a timestamped .log file detailing boot sequences, gameplay events, and graceful shutdowns.
 
     Resilient Error Handling: Global exception catching ensures that if a fatal error occurs, the stack trace is written to the log
     
-    The game shuts down safely without freezing the OS window.
+    Auto Close: The game shuts down safely without freezing the OS window.
 
 
 ### 🛠️ Getting Started
@@ -41,11 +42,7 @@ It features zero external asset dependencies, relying completely on real-time pr
 
     Running the Game: Simply run the Python script from your terminal or command prompt:
 
-    For the version without game stats
     python3 star_defenders.py
-
-    For the version with game stats
-    python3 star_defenders2.py 
 
 
 ### 🎮 Controls
@@ -56,7 +53,7 @@ It features zero external asset dependencies, relying completely on real-time pr
 
     Spacebar (␣): Fire dual-blasters.
 
-*Defend the galaxy, prevent the alien fleet from touching the bottom of the screen, and achieve the highest score!*
+*Defend the galaxy, prevent the alien fleet from touching the bottom of the screen, or getting hit and achieve the highest score!*
 
 
 ### 🔬 Under the Hood

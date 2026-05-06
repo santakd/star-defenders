@@ -95,7 +95,7 @@ WHITE = (250, 250, 250)                 # Player bullet color
 GREEN = (10, 250, 10)                   # Player ship color
 BLUE = (10, 10, 250)                    # Score text color and alien explosion sparks
 RED = (250, 10, 10)                     # Regular alien color
-DEEP_RED = (155, 10, 10)                # Game over text color
+ORANGE = (255, 118, 0)                  # Game over text color
 DEEP_BLUE = (10, 10, 155)               # Top row alien color
 LIGHT_BLUE = (10, 191, 250)             # Alien projectile color
 
@@ -349,12 +349,12 @@ class Game:
     def __init__(self):
         try:
             pygame.init()
-            pygame.display.set_caption("Star Defenders - Galactic Edition")
+            pygame.display.set_caption(f"{PROGRAM_NAME}   v{PROGRAM_VERSION}")
             self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
             self.clock = pygame.time.Clock()
             
-            self.font_large = pygame.font.SysFont('arial', 44, bold=True)
-            self.font_medium = pygame.font.SysFont('arial', 22)
+            self.font_large = pygame.font.SysFont('helvetica,arial,freesansbold', 44, bold=True)
+            self.font_medium = pygame.font.SysFont('helvetica,arial,freesansbold', 22)
             
             self.running = True
             self.game_started = False
@@ -624,7 +624,7 @@ class Game:
         # Overlay: Game Over / Victory Screen & Stats
         if self.game_over or self.victory:
             banner_text = "ALIENS DESTROYED. YOU WIN!" if self.victory else "GAME OVER"
-            banner_color = GREEN if self.victory else DEEP_RED
+            banner_color = GREEN if self.victory else ORANGE
             banner_surf = self.font_large.render(banner_text, True, banner_color)
             
             stats_line1 = f"Game Duration: {self.duration_seconds}s"

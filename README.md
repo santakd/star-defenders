@@ -1,6 +1,8 @@
 ## 🚀 Star Defenders
 
-![Star_Defenders](https://github.com/santakd/star-defenders/blob/main/star_defenders.gif)
+![Star_Defenders](https://github.com/santakd/star-defenders/blob/main/star_defenders.png)
+
+
 
 Star Defenders is a classic, arcade-style space shooter built entirely in Python using pygame.
 

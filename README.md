@@ -3,12 +3,12 @@
 ![Star_Defenders](https://github.com/santakd/star-defenders/blob/main/star_defenders.png)
 
 
-
 Star Defenders is a classic, arcade-style space shooter built entirely in Python using pygame.
 
 More than just a game, Star Defenders is engineered with production-grade architecture and design. 
 
 It features zero external asset dependencies, relying completely on real-time procedural generation for its graphics, particle physics, and audio.
+
 
 ### 📃 Source File
 
@@ -102,6 +102,7 @@ If you experience any issues or want to review your gameplay data, check the log
 
 If you find this project interesting, please give it a star — it helps others discover it too.
 
+<hr>
 
 *Created with Python & Pygame. Happy Coding and Happy Defending!*
-
+  
